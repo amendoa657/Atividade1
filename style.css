@@ -139,7 +139,10 @@ header {
   left: 14%;
 }
 
-
+.menu a {
+  text-decoration: none;
+  color: white;
+}
 
 .menu h3 {
   margin-bottom: 8%;

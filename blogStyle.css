@@ -213,7 +213,7 @@ header {
 
 
 .sectionRoxa {
-    height: 450vh;
+    height: 435vh;
     background-color: #0b0016;
 }
 
@@ -232,7 +232,7 @@ header {
     margin-right: 1.5%;
 }
 
-.noticiasBlog > div {
+.noticiasBlog > div:not(.mudarPag) {
     width: 100%;
     height: 80vh;
     position: relative;
@@ -442,6 +442,21 @@ header {
     background-color: #fbf9ff;
     margin-bottom: 7%;
 }
+.tagClouds a {
+    text-decoration: none;
+    color: #D6A04C;
+    font-size: 14px;
+    margin-right: 1.5%;
+    margin-bottom: 2%;
+    height: 3.5vh;
+    display: inline-block;
+    text-align: center;
+    padding: 1.5% 0;
+    border: 1px solid rgba(0, 0, 0, 0.06);
+    transition: 0.3s;
+}
+
+
 
 .instagramFeeds {
     width: 100%;
@@ -450,6 +465,20 @@ header {
     background-color: #fbf9ff;
     margin-bottom: 7%;
 }
+.instagramFeeds div {
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+}
+.instagramFeeds img {
+    width: 30%;
+    display: inline-block;
+    margin-right: 2.5%;
+    margin-bottom: 2.5%;
+}
+
+
+
 
 .newsLetter  {
     width: 100%;
@@ -459,6 +488,62 @@ header {
     margin-bottom: 7%;
 }
 
+.newsLetter input {
+    width: 100%;
+    height: 5.5vh;
+    padding-left: 5%;
+    color: rgba(0, 0, 0, 0.78);
+    border: 1px solid rgba(0, 0, 0, 0.11);
+    font-size: 14px;
+    margin-bottom: 5%;
+    outline: none;
+    vertical-align: middle;
+}
+
+.newsLetter a {
+    height: 6vh;
+    display: inline-block;
+    width: 100%;
+    background-color:white;
+    box-shadow: none;
+    vertical-align: middle;
+    line-height: 5.6vh;
+    text-align: center;
+    text-decoration: none;
+    color: #D6A04C;
+    border: 1px solid #D6A04C;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+.newsLetter a:hover {
+    background-color: #D6A04C;
+    color: white;
+}
+
+.mudarPag {
+    width: 30%;
+    height: 5.5vh;
+    margin: auto;
+    margin-top: 2%;
+    padding: 0 1%;
+}
+
+.botaoMudarPag {
+    width: 20%;
+    height: 100%;
+    text-decoration: none;
+    color: #D6A04C;
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.11);
+    line-height: 5.5vh;
+    text-align: center;
+    margin: 0 1.5%;
+    display: inline-block;
+    vertical-align: middle;
+    transition: 0.3s;
+    font-size: 14px;
+}
 
 
 

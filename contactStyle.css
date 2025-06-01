@@ -1,0 +1,451 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Questrial", sans-serif;
+    font-size: 17px;
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+h1 {
+    font-family: "Cabin", sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-weight: normal;
+}
+
+p {
+    font-family: "Questrial", sans-serif;
+}
+
+header {
+    width: 70%;
+    margin: auto;
+}
+
+.logo {
+    vertical-align: middle;
+    margin-right: 57%;
+}
+
+.telefone {
+    text-decoration: none;
+    color: white;
+}
+
+.botao {
+    padding: 1% 1.8%;
+    margin: 0 1.5%;
+    color: white;
+    text-decoration: none;
+    background-color: #CD994A;
+    border: 1px solid #D6A04C;
+    width: 30%;
+    height: 3vh;
+    transition: 0.3s;
+}
+
+.botao:hover {
+    background-color: #ffffff00;
+}
+
+.botaoSemCor {
+    width: 31%;
+    height: 6vh;
+    border: 1px solid #d6a04c;
+    text-align: center;
+    padding-top: 4%;
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+
+}
+
+.botaoSemCor:hover {
+    background-color: #d6a04c;
+}
+
+.divCabecalho {
+    width: 100%;
+    height: 50vh;
+    padding-top: 2%;
+    background-image: url("/Assets/Hero/h1_hero1.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 45%);
+    background-blend-mode: multiply;
+}
+
+.divCabecalho > div {
+    width: 70%;
+    margin: auto;
+    margin-top: 5%;
+    height: 100%;
+    padding-left: 7%;
+}
+
+.divCabecalho > div p {
+    font-size: 15px;
+}
+
+.divCabecalho > div h1 {
+    margin-top: 1%;
+    font-size: 60px;
+}
+
+.botaoMenu {
+    display: inline-block;
+    width: 2.5%;
+    margin-left: 1%;
+    cursor: pointer;
+    border-top: solid #FFFFFF 2px;
+    border-bottom: solid #FFFFFF 2px;
+    height: 12px;
+    text-align: center;
+    vertical-align: middle;
+    position: relative;
+}
+
+.botaoMenu input {
+    width: 300%;
+    height: 300%;
+    right: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+
+}
+
+
+.menu {
+    width: 19%;
+    height: 100vh;
+    background-color: #111;
+    position: fixed;
+    right: -19%;
+    top: 0;
+    z-index: 99;
+    transition: 0.6s;
+    padding-top: 8%;
+}
+
+.menu input {
+    position: absolute;
+    width: 5%;
+    height: 4vh;
+    top: 7%;
+    left: 16%;
+    z-index: 99;
+    opacity: 0;
+}
+.menu input:hover + i{
+    color: #D6A04C;
+}
+
+.menu i {
+    position: absolute;
+    top: 6%;
+    left: 14%;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu h3 {
+    margin-bottom: 8%;
+}
+
+.redesSociaisMenu {
+    margin: auto;
+    margin-top: 85%;
+    width: 50%;
+    height: 2vh;
+    text-align: center;
+    fill: white;
+}
+
+.redesSociaisMenu svg {
+    margin: 0 4%;
+}
+
+.inputBotaoMenu {
+    opacity: 0;
+}
+.inputBotaoMenu:checked + .menu {
+    right: 0;
+}
+
+
+
+.sectionRoxa {
+    width: 100%;
+    height: 140vh;
+    background-color: #0b0016;
+    padding-top: 2%;
+}
+
+.sectionRoxa section {
+    width: 68%;
+    margin: auto;
+    margin-top: 5%;
+    height: 100vh;
+}
+
+.maps {
+    width: 100%;
+    height: 52vh;
+    background-color: white;
+    margin-bottom: 7%;
+}
+
+.maps iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+.caixasInput {
+    width: 66%;
+    height: 55vh;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.caixasInput h1 {
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 2%;
+}
+
+.inputTotal {
+    width: 100%;
+    height: 22vh;
+    border: 1px solid white;
+    background-color: rgba(255, 255, 255, 0);
+    padding-left: 2%;
+    font-size: 14px;
+    margin-bottom: 3%;
+    outline: none;
+    color: white;
+    vertical-align: top;
+}
+
+.inputMeio {
+    width: 48.5%;
+    height: 5vh;
+    border: 1px solid white;
+    background-color: rgba(255, 255, 255, 0);
+    padding-left: 2%;
+    font-size: 14px;
+    margin-bottom: 3%;
+    outline: none;
+    display: inline-block;
+    color: white;
+}
+
+.inputBaixo {
+    width: 100%;
+    height: 5vh;
+    border: 1px solid white;
+    background-color: rgba(255, 255, 255, 0);
+    padding-left: 2%;
+    font-size: 14px;
+    margin-bottom: 3%;
+    outline: none;
+    color: white;
+}
+
+.caixasInput a {
+    text-decoration: none;
+    color: white;
+    background-color: #D6A04C;
+    width: 17%;
+    height: 6.5vh;
+    display: inline-block;
+    line-height: 7vh;
+    text-align: center;
+    font-size: 17px;
+    transition: 0.4s;
+    margin-top: 2%;
+    border: 1px solid #D6A04C;
+}
+
+.caixasInput a:hover {
+    background-color: #ffffff00;
+    color: #D6A04C;
+}
+
+
+
+.informacoes {
+    width: 22%;
+    height: 30vh;
+    padding-top: 2%;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10%;
+}
+
+.informacoes > div {
+    width: 90%;
+    margin: auto;
+    height: 6vh;
+    margin-bottom: 6%;
+    font-size: 25px;
+    padding-top: 10%;
+}
+
+.informacoes i {
+    margin-right: 5%;
+}
+
+.informacoesTexto {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.informacoesTexto h1{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+.informacoesTexto h4{
+    font-size: 16px;
+}
+
+
+
+footer {
+    height: 56vh;
+    width: 100%;
+    padding-top: 6%;
+    background-color: #1e1e1e;
+    text-align: center;
+}
+
+footer p {
+    margin-top: 1%;
+    font-size: 16px;
+}
+footer p > span {
+    color: #d6a04c;
+}
+
+.divFooter {
+    width: 68%;
+    height: 30vh;
+    margin: auto;
+}
+
+.divFooter > div:not(.direitaFooter) {
+    display: inline-block;
+    width: 15%;
+    height: 100%;
+    vertical-align: top;
+}
+
+.divFooter img{
+    vertical-align: top;
+
+}
+
+.listaFooter {
+    display: inline-block;
+    height: 20vh;
+    margin-left: 2%;
+    text-align: left;
+}
+
+.listaFooter h1 {
+    font-size: 20px;
+    margin-bottom: 15%;
+}
+
+.listaFooter li {
+    margin-top: 12%;
+}
+
+.listaFooter a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.direitaFooter {
+    display: inline-block;
+    width: 32%;
+    height: 100%;
+    vertical-align: top;
+    margin-left: 18%;
+    text-align: left;
+}
+
+.direitaFooter h1 {
+    font-size: 20px;
+    margin-bottom: 8%;
+}
+
+.direitaFooter h3 {
+    font-size: 16px;
+    margin-bottom: 5%;
+    color: #9d9fa7;
+}
+
+
+.direitaFooter a {
+    text-decoration: none;
+    fill: white;
+    margin-right: 4.5%;
+}
+
+
+
+.inputFooter {
+    width: 80%;
+    height: 7vh;
+    border: none;
+    padding-left: 2%;
+    font-size: 16px;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    outline: none;
+    vertical-align: middle;
+    border-bottom-left-radius: 7px;
+    border-top-left-radius: 7px;
+}
+
+.botaoFooter {
+    height: 7vh;
+    display: inline-block;
+    width: 20%;
+    background-color: #D6A04C;
+    box-shadow: none;
+    margin-left: -5px;
+    vertical-align: middle;
+    line-height: 8vh;
+    text-align: center;
+    border-bottom-right-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+.footerBorder {
+    height: 2vh;
+    width: 67%;
+    margin: auto;
+    margin-top: 2%;
+    border-top: 1px solid rgba(255, 255, 255, 0.16);
+}
+

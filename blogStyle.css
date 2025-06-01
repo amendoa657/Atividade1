@@ -307,6 +307,16 @@ header {
     vertical-align: top;
 }
 
+.informacoesBlog h1 {
+    font-size: 20px;
+    margin-bottom: 10%;
+    color: black;
+    margin-top: 4%;
+    padding-bottom: 4%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.11);
+    transition: 0.3s;
+}
+
 .barraPesquisa {
     width: 100%;
     height: 12vh;
@@ -344,6 +354,7 @@ header {
 
 }
 
+
 .categorias {
     width: 100%;
     height: 49vh;
@@ -351,10 +362,36 @@ header {
     background-color: #fbf9ff;
     margin-bottom: 7%;
 }
-.categorias h1 {
-    font-size: 20px;
-    margin-bottom: 5%;
+
+.categorias a {
+    text-decoration: none;
+    transition: 0.3s;
 }
+
+
+
+.categorias h2 {
+    font-size: 16px;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    color: rgba(0, 0, 0, 0.56);
+    padding-bottom: 4%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.11);
+    transition: 0.3s;
+}
+
+.categorias h2:hover,h3:hover {
+    color: #D6A04C;
+}
+
+.categorias h3 {
+    font-size: 16px;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    color: rgba(0, 0, 0, 0.56);
+    padding-bottom: 4%;
+}
+
 
 
 .postsRecentes {
@@ -364,6 +401,39 @@ header {
     background-color: #fbf9ff;
     margin-bottom: 7%;
 }
+
+.post {
+    width: 100%;
+    height: 9vh;
+    display: inline-block;
+    margin-bottom: 6%;
+}
+
+.post div {
+    display: inline-block;
+    height: 100%;
+    width: 60%;
+    padding-left: 4%;
+}
+
+.post img {
+    vertical-align: top;
+}
+
+.post p {
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 4%;
+    margin-top: 8%;
+}
+
+.post h5 {
+    color: rgba(0, 0, 0, 0.66);
+}
+
+
+
 
 .tagClouds {
     width: 100%;

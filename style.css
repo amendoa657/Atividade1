@@ -79,7 +79,7 @@ header {
     width: 100%;
     height: 93.5vh;
     padding-top: 2%;
-    background-image: url("/Assets/Hero/h1_hero1.jpg");
+    background-image: url("Assets/Hero/h1_hero1.jpg");
     background-size: cover;
     background-color: rgba(0, 0, 0, 45%);
     background-blend-mode: multiply;

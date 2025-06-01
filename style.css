@@ -56,6 +56,7 @@ header {
 }
 
 .botao:hover {
+    color: #D6A04C;
     background-color: #ffffff00;
 }
 
@@ -456,6 +457,28 @@ main {
     width: 100%;
 }
 
+.setaCarroselEsquerda {
+    position: absolute;
+    top: 110%;
+    transform: translateY(-50%);
+    font-size: 30px;
+    height: 100%;
+    cursor: pointer;
+    left: 0;
+    color: #d6a04c;
+}
+
+.setaCarroselDireita {
+    position: absolute;
+    top: 110%;
+    transform: translateY(-50%);
+    font-size: 30px;
+    height: 100%;
+    cursor: pointer;
+    right: 0;
+    color: #D6A04C;
+}
+
 .quadradoAbsolute {
     background-color: #D6A04C;
     position: absolute;
@@ -466,7 +489,21 @@ main {
     padding-top: 1%;
     width: 58%;
     vertical-align: top;
+    transition: 0.5s;
 }
+
+.quadradoAbsolute:hover {
+    background-color: #242424;
+}
+
+.quadradoAbsolute:hover h2 {
+    color: #d6a04c;
+}
+
+.quadradoAbsolute:hover .botaoIcon i {
+    background-color: #d6a04c;
+}
+
 
 .quadradoAbsolute > div {
     height: 18vh;
@@ -509,6 +546,25 @@ main {
     text-decoration: none;
     margin-left: 15%;
 
+}
+
+
+
+.pontinhos {
+    width: 10%;
+    height: 2vh;
+    position: absolute;
+    padding-top: 2%;
+    right: 16%;
+}
+
+.pontinhos span {
+    display: inline-block;
+    width: 1.5vh;
+    height: 1.5vh;
+    background-color: #372d3c;
+    border-radius: 50%;
+    margin-left: 7%;
 }
 
 
